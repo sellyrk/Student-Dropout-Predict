@@ -82,7 +82,7 @@ streamlit run student_predict_app.py
 3. Input Data
 Setelah aplikasi berjalan, pengguna dapat mengisi data mahasiswa melalui form yang tersedia, lalu menekan tombol Predict untuk mendapatkan hasil prediksi.
 
-Prototype aplikasi dapat diakses melalui link berikut: []
+Prototype aplikasi dapat diakses melalui link berikut: [https://student-dropout-predict-app.streamlit.app/]
 
 ## Conclusion
 Berdasarkan hasil analisis data mahasiswa dari Jaya Jaya Institut serta penerapan algoritma machine learning, diperoleh beberapa insight penting yang dapat membantu pihak institusi dalam menangani permasalahan dropout. Faktor-faktor seperti jumlah kelas yang diambil dan diluluskan (Total_enrolled dan Total_approved), nilai rata-rata (Avg_grade), dan usia saat mendaftar (Age_at_Enrollment) memiliki korelasi yang kuat terhadap potensi meningkatnya kelulusan mahasiswa.
