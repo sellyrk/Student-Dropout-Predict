@@ -20,7 +20,7 @@ Proyek ini bertujuan untuk membantu institusi dalam mengenali faktor yang menyeb
 
 ### Persiapan
 
-Sumber data: [....](https://github.com/dicodingacademy/dicoding_dataset/blob/main/students_performance/README.md)
+Sumber data: [https://github.com/dicodingacademy/dicoding_dataset/blob/main/students_performance/README.md]
 
 Setup environment: 
 ```
@@ -85,9 +85,19 @@ Setelah aplikasi berjalan, pengguna dapat mengisi data mahasiswa melalui form ya
 Prototype aplikasi dapat diakses melalui link berikut: []
 
 ## Conclusion
-Jelaskan konklusi dari proyek yang dikerjakan.
+Berdasarkan hasil analisis data mahasiswa dari Jaya Jaya Institut serta penerapan algoritma machine learning, diperoleh beberapa insight penting yang dapat membantu pihak institusi dalam menangani permasalahan dropout. Faktor-faktor seperti jumlah kelas yang diambil dan diluluskan (Total_enrolled dan Total_approved), nilai rata-rata (Avg_grade), dan usia saat mendaftar (Age_at_Enrollment) memiliki korelasi yang kuat terhadap potensi meningkatnya kelulusan mahasiswa.
+
+Model machine learning terbaik yang berhasil dibangun adalah Random Forest, dengan performa evaluasi yang unggul dibandingkan model lainnya. Aplikasi ini telah diimplementasikan dalam bentuk prototype berbasis web menggunakan Streamlit, yang dapat membantu institusi dalam melakukan prediksi dropout secara cepat dan interaktif.
+
+Dari visualisasi dan eksplorasi data, ditemukan bahwa mahasiswa yang usinya lebih muda, banyak mengambil kelas, sering menghadiri evaluasi, dan memiliki nilai yang tinggi cenderung lulus. Sebaliknya, mahasiswa yang mengambil jumlah kelas sedikit, nilai cukup rendah, dan berusia di atas 25 tahun saat mendaftar lebih rentan mengalami dropout. Fitur-fitur seperti Tuition_fees_up_to_date (mahasiswa mendapat biaya terkini), Scholarship_holder (pemegang beassiwa), dan Previous_qualification_grade (nilai kualifikasi di pendidikan terakhir) juga memberikan kontribusi signifikan dalam membedakan profil mahasiswa yang lulus dan yang dropout.
 
 ### Rekomendasi Action Items
-Berikan beberapa rekomendasi action items yang harus dilakukan perusahaan guna menyelesaikan permasalahan atau mencapai target mereka.
-- action item 1
-- action item 2
+Berikut beberapa recommendation action items yang dapat dilakukan, yaitu:
+1. Fokus Intervensi pada Mahasiswa Berusia >25 Tahun
+Mahasiswa yang lebih tua saat pendaftaran (enrolled) cenderung memiliki risiko dropout lebih tinggi, sehingga diperlukan pembuatan pendekatan pendampinganatau fleksibilitas waktu belajar bagi kelompok usia ini.
+2. Evaluasi dan Bimbingan Berdasarkan Nilai dan Kehadiran
+Mahasiswa dengan nilai rendah dan kehadiran evaluasi yang buruk harus mendapat perhatian seperti mentoring, kelas remedial, atau pembinaan akademik yang aktif.
+3. Penguatan Kebijakan Biaya Pendidikan dan Beasiswa
+Mahasiswa yang tidak up-to-date dalam pembayaran biaya kuliah lebih rentan dropout. Institusi dapat mempertimbangkan skema beasiswa atau cicilan untuk kelompok ini, dengan memperbanyak program kerja sama beasiswa atau memberikan keringanan biaya terhadap mahasiswa yang cenderung memiliki ekonomi rendah.
+4. Pemantauan SKS dan Kinerja Akademik Mahasiswa
+Pihak akademik dapat memonitor aktif terhadap jumlah SKS yang diambil dan yang berhasil diluluskan, ini supaya bisa menjadi indikator kesehatan akademik, sehingga pendeteksian lebih awal dapat dilakukan pada mahasiswa yang cenderung berpotensi dropout.
