@@ -4,7 +4,7 @@
 Saat ini, Jaya Jaya Institut telah memiliki ribuan mahasiswa aktif dan telah mencetak lulusan yang membanggakan untuk negeri. Selain lulusan yang membanggakan, tidak dapat dipungkiri, dari seluruh mahasiswa masih ada mahasiswa yang mengalami dropout. Dalam menghadapi jumlah dropout yang dapat saja meningkat, institusi harus memahami data mahasiswa yang ada sebagai dasar pengambilan keputusan untuk mengurangi jumlah dropout yang mungkin terjadi di masa mendatang.
 
 ### Permasalahan Bisnis
-Apa saja faktor yang menyebabkan seorang individu mahasiswa berpotensi untuk melakukan dropout?
+Apa saja faktor-faktor yang menyebabkan seorang individu mahasiswa berpotensi untuk melakukan dropout? Dan bagaimana tindakan preventif yang disarankan untuk mencegah jumlah dropout yang mungkin meningkat?
 
 ### Cakupan Proyek
 Proyek ini bertujuan untuk membantu institusi dalam mengenali faktor yang menyebabkan dropout dengan menggunakan pendekatan analisis data dan algoritma klasifikasi. Adapun ruang lingkup proyek meliputi:
@@ -98,10 +98,17 @@ Dari visualisasi dan eksplorasi data, ditemukan bahwa mahasiswa yang usinya lebi
 ### Rekomendasi Action Items
 Berikut beberapa recommendation action items yang dapat dilakukan, yaitu:
 1. Fokus Intervensi pada Mahasiswa Berusia >25 Tahun
+
 Mahasiswa yang lebih tua (>25 tahun) saat pendaftaran (enrolled) cenderung memiliki risiko dropout lebih tinggi, sehingga diperlukan pembuatan pendekatan pendampingan atau fleksibilitas waktu belajar bagi kelompok usia ini.
+
 2. Evaluasi dan Bimbingan Berdasarkan Nilai dan Kehadiran
+
 Mahasiswa dengan nilai rendah dan kehadiran evaluasi yang buruk harus mendapat perhatian seperti mentoring, kelas remedial, atau pembinaan akademik yang aktif.
+
 3. Penguatan Kebijakan Biaya Pendidikan dan Beasiswa
+
 Mahasiswa yang tidak up-to-date dalam pembayaran biaya kuliah lebih rentan dropout. Institusi dapat mempertimbangkan skema beasiswa atau cicilan untuk kelompok ini, dengan memperbanyak program kerja sama beasiswa atau memberikan keringanan biaya terhadap mahasiswa yang cenderung memiliki ekonomi rendah.
+
 4. Pemantauan SKS dan Kinerja Akademik Mahasiswa
+
 Pihak akademik dapat memonitor aktif terhadap jumlah SKS yang diambil dan yang berhasil diluluskan, ini supaya bisa menjadi indikator kesehatan akademik, sehingga pendeteksian lebih awal dapat dilakukan pada mahasiswa yang cenderung berpotensi dropout.
