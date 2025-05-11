@@ -107,7 +107,7 @@ Mahasiswa dengan nilai rendah dan kehadiran evaluasi yang buruk harus mendapat p
 
 3. Penguatan Kebijakan Biaya Pendidikan dan Beasiswa
 
-Mahasiswa yang tidak up-to-date dalam pembayaran biaya kuliah lebih rentan dropout. Institusi dapat mempertimbangkan skema beasiswa atau cicilan untuk kelompok ini, dengan memperbanyak program kerja sama beasiswa atau memberikan keringanan biaya terhadap mahasiswa yang cenderung memiliki ekonomi rendah.
+Mahasiswa yang tidak up-to-date dalam pembayaran biaya kuliah lebih rentan dropout. Institusi dapat mempertimbangkan skema beasiswa atau cicilan untuk kelompok ini, dengan memperbanyak program kerja sama beasiswa atau memberikan keringanan biaya terhadap mahasiswa dengan beberapa pertimbangan.
 
 4. Pemantauan SKS dan Kinerja Akademik Mahasiswa
 
