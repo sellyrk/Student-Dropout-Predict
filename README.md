@@ -74,13 +74,17 @@ Pastikan semua library berikut telah terinstal:
 ```
 pip install streamlit pandas scikit-learn joblib
 ```
+
 2. Menjalankan Aplikasi
+
 Jalankan perintah berikut di terminal atau command prompt pada direktori tempat file aplikasi disimpan:
 ```
 streamlit run student_predict_app.py
 ```
+
 3. Input Data
-Setelah aplikasi berjalan, pengguna dapat mengisi data mahasiswa melalui form yang tersedia, lalu menekan tombol Predict untuk mendapatkan hasil prediksi.
+
+Setelah aplikasi berjalan, isi data mahasiswa melalui form yang tersedia, lalu menekan tombol Predict untuk mendapatkan hasil prediksi.
 
 Prototype aplikasi dapat diakses melalui link berikut: [https://student-dropout-predict-app.streamlit.app/]
 
@@ -94,7 +98,7 @@ Dari visualisasi dan eksplorasi data, ditemukan bahwa mahasiswa yang usinya lebi
 ### Rekomendasi Action Items
 Berikut beberapa recommendation action items yang dapat dilakukan, yaitu:
 1. Fokus Intervensi pada Mahasiswa Berusia >25 Tahun
-Mahasiswa yang lebih tua saat pendaftaran (enrolled) cenderung memiliki risiko dropout lebih tinggi, sehingga diperlukan pembuatan pendekatan pendampinganatau fleksibilitas waktu belajar bagi kelompok usia ini.
+Mahasiswa yang lebih tua (>25 tahun) saat pendaftaran (enrolled) cenderung memiliki risiko dropout lebih tinggi, sehingga diperlukan pembuatan pendekatan pendampingan atau fleksibilitas waktu belajar bagi kelompok usia ini.
 2. Evaluasi dan Bimbingan Berdasarkan Nilai dan Kehadiran
 Mahasiswa dengan nilai rendah dan kehadiran evaluasi yang buruk harus mendapat perhatian seperti mentoring, kelas remedial, atau pembinaan akademik yang aktif.
 3. Penguatan Kebijakan Biaya Pendidikan dan Beasiswa
