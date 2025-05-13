@@ -22,29 +22,8 @@ Proyek ini bertujuan untuk membantu institusi dalam mengenali faktor yang menyeb
 
 Sumber data: [https://github.com/dicodingacademy/dicoding_dataset/blob/main/students_performance/README.md]
 
-# Setup Environment - Anaconda
+##### Setup Environment - Google Colab (Versi Python yang digunakan: 3.10+ (default Google Colab))
 ```
-conda create --name main-ds python=3.11.4
-conda activate main-ds
-pip install matplotlib numpy pandas requests seaborn streamlit scikit-learn joblib xgboost
-pip install -r requirements.txt
-```
-
-# Setup Environment - Shell/Terminal
-```
-mkdir proyek_student_predict
-cd proyek_student_predict
-pipenv install
-pipenv shell
-pip install -r requirements.txt
-```
-
-# Run steamlit app
-```
-streamlit run student_predict_app.py
-```
-
-# Setup Env - Google Colab (Versi Python yang digunakan: 3.10+ (default Google Colab))
 # Install library 
 !pip install -q numpy pandas matplotlib seaborn scikit-learn joblib xgboost
 
@@ -71,6 +50,28 @@ from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_sc
 
 # Model Saving
 import joblib
+```
+
+#### Setup Environment - Anaconda
+```
+conda create --name main-ds python=3.11.4
+conda activate main-ds
+pip install matplotlib numpy pandas requests seaborn streamlit scikit-learn joblib xgboost
+pip install -r requirements.txt
+```
+
+#### Setup Environment - Shell/Terminal
+```
+mkdir proyek_student_predict
+cd proyek_student_predict
+pipenv install
+pipenv shell
+pip install -r requirements.txt
+```
+
+#### Run steamlit app
+```
+streamlit run student_predict_app.py
 ```
 
 ## Business Dashboard
