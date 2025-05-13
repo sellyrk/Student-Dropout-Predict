@@ -22,8 +22,28 @@ Proyek ini bertujuan untuk membantu institusi dalam mengenali faktor yang menyeb
 
 Sumber data: [https://github.com/dicodingacademy/dicoding_dataset/blob/main/students_performance/README.md]
 
-Setup environment: 
+# Setup Environment - Anaconda
 ```
+conda create --name main-ds python=3.11.4
+conda activate main-ds
+pip install matplotlib numpy pandas requests seaborn streamlit scikit-learn joblib xgboost
+pip install -r requirements.txt
+```
+
+# Setup Environment - Shell/Terminal
+```
+mkdir proyek_student_predict
+cd proyek_student_predict
+pipenv install
+pipenv shell
+pip install -r requirements.txt
+```
+
+# Run steamlit app
+```
+streamlit run student_predict_app.py
+```
+
 # Setup Env - Google Colab (Versi Python yang digunakan: 3.10+ (default Google Colab))
 # Install library 
 !pip install -q numpy pandas matplotlib seaborn scikit-learn joblib xgboost
@@ -64,7 +84,7 @@ Secara keseluruhan, dari dashboard di atas, dapat dilihat jika total mahasiswa p
 5. Scatterplot kedua menunjukkan demikian, hubungan antara total SKS yang diaveluasi dan yang tidak dievaluasi. Dari hasil, dapat dilihat hubungan kedua fitur ini adalah berbanding terbalik. Pada Graduate, semakin banyak evaluasi yang diikuti (ujian/praktikum/tugas), maka semakin tinggi prediksi kelulusannya. Begitu juga dengan Dropout, yang menunjukkan tingginya total SKS yang tidak dievaluasi. Pada yang terdaftar, nilai total yang tidak dievaluasi sangat sedikit, ini dapat menjadi potensi untuk mengarahkan meningkatkan nilai evaluasinya.
 6. Hasil visualisasi terakhir, menunjukkan jika Nursing memiliki banyak siswa yang berhasil graduate, begitu juga pada Social Servis dan Journalism. Ini berbeda dengan Management yang terlihat lebih banyak yang dropout daripada graduate, sama seperti Informatics Engeineering. Secara keseluruhan, datanya terlihat cukup acak dan bermacam-macam di program studi yang ada.
 
-Link Dashboard: [https://lookerstudio.google.com/reporting/76f11265-a200-4efa-be52-fc21c93e9037/page/Cg3JF]
+Link Dashboard: [https://lookerstudio.google.com/reporting/76f11265-a200-4efa-be52-fc21c93e9037]
 
 ## Menjalankan Sistem Machine Learning
 Sistem machine learning ini telah dikembangkan dalam bentuk aplikasi web interaktif menggunakan Streamlit, yang memungkinkan pengguna untuk memasukkan data mahasiswa dan mendapatkan prediksi status kelulusan mahasiswa tersebut. Cara menjalankannya adalah seperti berikut:
