@@ -91,6 +91,7 @@ Link Dashboard: [https://lookerstudio.google.com/reporting/76f11265-a200-4efa-be
 Sistem machine learning ini telah dikembangkan dalam bentuk aplikasi web interaktif menggunakan Streamlit, yang memungkinkan pengguna untuk memasukkan data mahasiswa dan mendapatkan prediksi status kelulusan mahasiswa tersebut. Cara menjalankannya adalah seperti berikut:
 
 1. Instalasi Library
+
 Pastikan semua library berikut telah terinstal:
 ```
 pip install streamlit pandas scikit-learn joblib
